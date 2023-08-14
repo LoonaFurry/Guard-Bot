@@ -20,7 +20,7 @@ recent_messages = {}
 duplicate_words = {}
 
 # Add your reCAPTCHA secret key here
-RECAPTCHA_SECRET_KEY = os.getenv("6LdtaacnAAAAAF3osyJ9ZGH0RjxHEXAbfYxZYMuw")
+RECAPTCHA_SECRET_KEY = os.getenv("your-recaptcha-key")
 
 # Load BERT model and tokenizer for semantic similarity
 tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
